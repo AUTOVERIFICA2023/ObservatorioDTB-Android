@@ -1,0 +1,27 @@
+OBSERVATORIO DTB - APP ANDROID 1.0
+
+OBJETIVO
+App Android ligera que abre el portal institucional:
+https://transitobucaramanga.gov.co/placasdtb/observatorioweb/portal.php
+
+NO contiene bases de datos. Los datos continúan en la infraestructura web actual.
+
+ABRIR Y GENERAR APK
+1. Descomprima este ZIP.
+2. Abra la carpeta ObservatorioDTB_Android en Android Studio.
+3. Espere la sincronización de Gradle.
+4. Menú Build > Build App Bundle(s) / APK(s) > Build APK(s).
+5. Android Studio indicará dónde quedó app-debug.apk.
+6. Para distribución pública conviene generar un APK firmado:
+   Build > Generate Signed App Bundle or APK > APK.
+
+DATOS
+Nombre: Observatorio DTB
+Paquete: co.gov.transitobucaramanga.observatoriodtb
+Versión: 1.0
+Android mínimo: 7.0 (API 24)
+
+SIGUIENTE PASO
+Cuando tenga el APK definitivo, súbalo al servidor institucional, por ejemplo:
+observatorioweb/descargas/ObservatorioDTB.apk
+Luego se agrega al portal.php el botón de descarga y el QR.
